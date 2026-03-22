@@ -133,15 +133,6 @@
   </div>
 
   <div style="background: #2C2825; border-radius: 8px; overflow: hidden;">
-    <img src="/images/chennai-residential-3.jpeg" style="width: 100%; height: 140px; object-fit: cover; opacity: 0.85;" alt="Residential Project, Chennai">
-    <div style="padding: 0.9rem 1.1rem;">
-      <p style="font-size: 0.82rem; font-weight: 600; color: #FDFAF7; margin-bottom: 0.2rem;">Residential Building</p>
-      <p style="font-size: 0.75rem; color: #D4522A; margin-bottom: 0.2rem;">Chennai</p>
-      <p style="font-size: 0.72rem; color: #9a8c82; margin: 0;">Residential</p>
-    </div>
-  </div>
-
-  <div style="background: #2C2825; border-radius: 8px; overflow: hidden;">
     <img src="/images/pondy-residential.jpeg" style="width: 100%; height: 140px; object-fit: cover; opacity: 0.85;" alt="Residential Project, Pondicherry">
     <div style="padding: 0.9rem 1.1rem;">
       <p style="font-size: 0.82rem; font-weight: 600; color: #FDFAF7; margin-bottom: 0.2rem;">Residential Building</p>
