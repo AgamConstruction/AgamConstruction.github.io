@@ -66,12 +66,10 @@
   
     
     
-      
     
     
     
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="deep-orange">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -121,33 +119,7 @@
     </div>
     
       
-        <form class="md-header__option" data-md-component="palette">
-  
     
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
-      </label>
-    
-  
-</form>
-      
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -656,61 +628,73 @@
 
 
 <h1 id="contact-us">Contact Us</h1>
-<p>We would love to hear from you. Reach out to us for project inquiries, 
-consultations, or any questions about our services.</p>
-<hr />
+<div style="background: #2C2825; padding: 1.2rem 2rem; border-radius: 8px; border-left: 4px solid #D4522A; margin-bottom: 2rem;">
+  <p style="color: #FDFAF7; font-size: 0.95rem; font-weight: 400; margin: 0;">
+    Reach out to us for project inquiries, consultations, or any questions about our services.
+  </p>
+</div>
+
 <h2 id="get-in-touch">Get in Touch</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-gap: 1rem; margin: 1.5rem 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0 2rem;">
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; 
-border-top: 3px solid #c62828;">
-<strong>📍 Our Office</strong><br><br>
-83/55, 10th Avenue<br>
-Ashok Nagar<br>
-Chennai — 600 083<br>
-Tamil Nadu, India
-</div>
+  <div style="background: #F0EAE2; border-radius: 8px; padding: 1.2rem 1.4rem; border-top: 3px solid #D4522A;">
+    <p style="font-weight: 600; color: #2C2825; font-size: 0.9rem; margin-bottom: 0.8rem;">📍 Our Office</p>
+    <p style="font-size: 0.82rem; color: #5c4f46; line-height: 1.8; margin: 0;">
+      83/55, 10th Avenue<br>
+      Ashok Nagar<br>
+      Chennai — 600 083<br>
+      Tamil Nadu, India
+    </p>
+  </div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; 
-border-top: 3px solid #c62828;">
-<strong>📞 Call Us</strong><br><br>
-73730 78777<br>
-94444 47442<br><br>
-Monday to Saturday<br>
-9:00 AM — 6:00 PM
-</div>
+  <div style="background: #F0EAE2; border-radius: 8px; padding: 1.2rem 1.4rem; border-top: 3px solid #D4522A;">
+    <p style="font-weight: 600; color: #2C2825; font-size: 0.9rem; margin-bottom: 0.8rem;">📞 Call Us</p>
+    <p style="font-size: 0.82rem; color: #5c4f46; line-height: 1.8; margin: 0;">
+      73730 78777<br>
+      94444 47442<br><br>
+      Monday to Saturday<br>
+      9:00 AM — 6:00 PM
+    </p>
+  </div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 1.5rem; 
-border-top: 3px solid #c62828;">
-<strong>📧 Email Us</strong><br><br>
-b_gopalsamy@rediffmail.com<br><br>
-We respond within<br>
-1-2 business days
-</div>
+  <div style="background: #F0EAE2; border-radius: 8px; padding: 1.2rem 1.4rem; border-top: 3px solid #D4522A;">
+    <p style="font-weight: 600; color: #2C2825; font-size: 0.9rem; margin-bottom: 0.8rem;">📧 Email Us</p>
+    <p style="font-size: 0.82rem; color: #5c4f46; line-height: 1.8; margin: 0;">
+      b_gopalsamy@rediffmail.com<br><br>
+      We respond within<br>
+      1-2 business days
+    </p>
+  </div>
 
 </div>
 
 <hr />
 <h2 id="service-areas">Service Areas</h2>
-<p>We serve clients across:</p>
-<ul>
-<li>Chennai and surrounding areas</li>
-<li>Coimbatore</li>
-<li>Pondicherry</li>
-<li>Other locations across Tamil Nadu on request</li>
-</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1rem 0 2rem;">
+  <span style="background: #F0EAE2; border: 0.5px solid #8B4513; border-radius: 20px; padding: 0.4rem 1rem; font-size: 0.8rem; color: #2C2825; font-weight: 500;">📍 Chennai & Surrounding Areas</span>
+  <span style="background: #F0EAE2; border: 0.5px solid #8B4513; border-radius: 20px; padding: 0.4rem 1rem; font-size: 0.8rem; color: #2C2825; font-weight: 500;">📍 Coimbatore</span>
+  <span style="background: #F0EAE2; border: 0.5px solid #8B4513; border-radius: 20px; padding: 0.4rem 1rem; font-size: 0.8rem; color: #2C2825; font-weight: 500;">📍 Pondicherry</span>
+  <span style="background: #F0EAE2; border: 0.5px solid #8B4513; border-radius: 20px; padding: 0.4rem 1rem; font-size: 0.8rem; color: #2C2825; font-weight: 500;">📍 Tamil Nadu on Request</span>
+</div>
+
 <hr />
 <h2 id="start-your-project-today">Start Your Project Today</h2>
-<p>Whether you are planning a new home, office renovation, or a large 
-commercial project — we are here to help.</p>
-<blockquote>
-<p><strong>Call us today for a free consultation:</strong>
-📞 73730 78777 / 94444 47442</p>
-</blockquote>
-<hr />
-<p><em>Committed to quality, reliability, and excellence — Agam Construction 
-has been building trust since 2001.</em></p>
+<div style="background: #2C2825; border-radius: 8px; padding: 1.6rem 2rem; margin: 1rem 0 2rem;">
+  <p style="color: #FDFAF7; font-size: 0.9rem; line-height: 1.7; margin-bottom: 1.2rem;">
+    Whether you are planning a new home, office renovation, or a large commercial project — we are here to help.
+  </p>
+  <div style="background: #D4522A; border-radius: 6px; padding: 0.8rem 1.2rem; display: inline-block;">
+    <p style="color: #FDFAF7; font-size: 0.85rem; font-weight: 600; margin: 0;">
+      📞 Call us for a free consultation — 73730 78777 / 94444 47442
+    </p>
+  </div>
+</div>
+
+<div style="border-top: 0.5px solid #e0d9d0; padding-top: 1.2rem; margin-top: 1rem;">
+  <p style="font-size: 0.78rem; color: #8B4513; font-style: italic; text-align: center; margin: 0;">
+    Committed to quality, reliability, and excellence — Agam Construction has been building trust since 2001.
+  </p>
+</div>
 
 
 
