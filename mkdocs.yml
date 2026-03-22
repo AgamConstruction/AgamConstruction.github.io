@@ -44,6 +44,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Home: index.md
   - About Us: about.md
   - Services: services/index.md
   - Projects: projects/index.md
