@@ -8,3 +8,55 @@
   height: 50px;
   width: auto;
 }
+/* Header background */
+.md-header {
+    background-color: #2C2C2C; /* Premium dark charcoal */
+}
+/* Premium brand red accents */
+
+.md-tabs {
+    background-color: #8B1E1E; /* Deep maroon */
+}
+
+.md-button {
+    background-color: #8B1E1E;
+    color: white;
+}
+
+.md-button:hover {
+    background-color: #5A0F0F;
+}
+/* Softer page look */
+
+.md-main {
+    background-color: #F5F5F5;
+}
+
+/* Header shadow */
+
+.md-header {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/* Gold highlight for active tab */
+
+.md-tabs__link--active {
+    border-bottom: 2px solid #C5A46D;
+}
+
+/* Gold hover effect */
+
+.md-tabs__link:hover {
+    color: #C5A46D;
+}
+/* Professional content cards */
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+/* Improve spacing */
+
+.md-main__inner {
+    margin-top: 20px;
+}
