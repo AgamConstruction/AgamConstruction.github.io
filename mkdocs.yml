@@ -1,0 +1,60 @@
+site_name: Agam Construction
+site_description: Professional construction and project management services in Chennai since 2001
+site_author: Agam Construction
+site_url: https://AgamConstruction.github.io/
+
+repo_name: AgamConstruction.github.io
+repo_url: https://github.com/AgamConstruction/AgamConstruction.github.io
+
+theme: 
+  name: material
+  logo: AgamLogo.png
+  favicon: AgamLogo.png
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette:
+    scheme: default
+    primary: white
+    accent: deep-orange
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About Us: about.md
+  - Services: services/index.md
+  - Projects: projects/index.md
+  - Contact: contact.md
+
+extra_css:
+  - extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AgamConstruction
+
+copyright: Copyright &copy; 2026 Agam Construction
